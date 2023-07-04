@@ -1,0 +1,50 @@
+
+@font-face {
+  font-family: 'sourcecodereg';
+  src: url('../fonts/SourceCodePro-Regular.otf');
+}
+
+
+
+body {
+  background-color: #9DB2BF;
+  font-family: "sourcecodereg", sans-serif;
+
+  #header {
+    background-color: #27374D;
+    font-size: 2.5em;
+    padding: 10px;
+    border-bottom: solid 5px #DDE6ED;
+
+  }
+
+  #content {
+    padding: 25px 10px;
+  }
+}
+
+
+button {
+  background-color: #526D82;
+  margin: 10px 0px;
+  padding: 10px 40px;
+  font-family: "sourcecodereg", sans-serif;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #27374D;
+  color: #DDE6ED;
+}
+
+@media screen and (min-width: 480px) {
+  body {
+    #header {
+      padding: 10px 20vw;
+    }
+
+    #content {
+      padding: 25px 20vw;
+    }
+  }
+}
